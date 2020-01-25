@@ -1,5 +1,5 @@
 <template>
-    <button class="text-center btn btn-primary btn-default" style="float:right" @click="reloadResources">{{ __('Refresh') }}</button>
+    <button class="text-center btn btn-primary btn-default" style="float:right; position: absolute; right: 0" @click="reloadResources">{{ __('Refresh') }}</button>
 </template>
 
 <script>
