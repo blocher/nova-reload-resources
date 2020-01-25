@@ -17,8 +17,8 @@ class CardServiceProvider extends ServiceProvider
     public function boot()
     {
         Nova::serving(function (ServingNova $event) {
-            Nova::script('reload-resources', __DIR__.'/../resources/js/card.js');
-            Nova::style('reload-resources', __DIR__.'/../resources/css/card.css');
+            Nova::script('reload-resources', __DIR__.'/../dist/js/card.js');
+            Nova::style('reload-resources', __DIR__.'/../dist/css/card.css');
         });
     }
 }
